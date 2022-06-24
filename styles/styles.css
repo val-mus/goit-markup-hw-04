@@ -99,15 +99,15 @@ address {
 .header .logo > span{
     color: var(--secondary-txt-color);
 }
-.contact-item{
-   align-items: center;
-}
 .contact-item:hover, .contact-item:focus{
     color: var(--focus-color);
 }
 .contact-icon{
     fill: currentColor;
     margin-right: 10px;
+    vertical-align: middle;
+    width: 10;
+    height: 16;
 }
 
 .header-nav-links > li:not(:last-child),.header-contacts>li:not(:last-child){
