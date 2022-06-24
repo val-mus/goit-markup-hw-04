@@ -44,7 +44,7 @@ address {
 .link {
     text-decoration: none;
 }
-.link:hover, .link:focus, .contact:hover, .contact:focus {
+.link:hover, .link:focus, .contact:hover, .contact:focus{
     color: var(--focus-color);
 }
 
@@ -99,6 +99,17 @@ address {
 .header .logo > span{
     color: var(--secondary-txt-color);
 }
+.contact-item{
+   align-items: center;
+}
+.contact-item:hover, .contact-item:focus{
+    color: var(--focus-color);
+}
+.contact-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 .header-nav-links > li:not(:last-child),.header-contacts>li:not(:last-child){
     margin-right: 50px;
 }
