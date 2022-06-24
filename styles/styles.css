@@ -238,8 +238,10 @@ address {
     border-radius: 0px 0px 4px 4px;
 }
 .sign{
+   
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 .team-title{
     margin-bottom: 10px;
@@ -250,8 +252,25 @@ address {
     color: var(--secondary-txt-color);
 }
 .team-txt {
+
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 16px;
+}
+.employee-social-link{
+    justify-content: center;
+}
+.empl-soc-connect{
+    display: inline-block;
+    width: 44px;
+    height: 44px; 
+
+    background-color: red;
+    color: #AFB1B8;
+    border-radius: 50%;
+}
+.empl-soc-connect:not(:last-child){
+    margin-right: 10px;
 }
 
 .clients-list{
@@ -280,6 +299,9 @@ address {
     padding-bottom: 60px;
     background-color: var(--footer-bg-color);
 }
+.footer-line{
+    align-items: baseline;
+}
 
 .footer .logo {
     display: inline-block;
@@ -288,9 +310,7 @@ address {
 .footer .logo>span{
     color: var(--prime-bg-color);
 }
-.inline{
-    align-items: baseline;
-}
+
 .footer-links{
     margin-right: 70px;
 }
