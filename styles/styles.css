@@ -201,6 +201,8 @@ address {
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
 
     background: var(--third-bg-color);
     border-radius: 4px;
