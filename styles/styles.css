@@ -106,8 +106,7 @@ address {
     fill: currentColor;
     margin-right: 10px;
     vertical-align: middle;
-    width: 10;
-    height: 16;
+    
 }
 
 .header-nav-links > li:not(:last-child),.header-contacts>li:not(:last-child){
