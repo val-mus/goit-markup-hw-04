@@ -141,7 +141,7 @@ address {
     color: var(--secondary-txt-color);
 }
 .hero{
-    width: 1600px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
     padding: 200px 0;
