@@ -31,11 +31,21 @@
           </ul>
         </nav>
         <ul class="list header-contacts flex">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
+          <li class="contact-item flex">
+            <a href="mailto:info@devstudio.com" class="contact link">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
+          <li class="contact-item flex">
+            <a href="tel:+380961111111" class="contact link">
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons/icons.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -168,24 +178,74 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo link"> Web<span>Studio</span></a>
-        <address>
-          <ul class="list footer-links">
-            <li>
+        <div class="flex footer-line">
+          <div>
+            <a href="./index.html" class="logo link"> Web<span>Studio</span></a>
+            <address>
+              <ul class="list footer-links">
+                <li>
+                  <a
+                    class="footer-address link"
+                    href="https://goo.gl/maps/YjMtobuVedqzEs7B6"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-contact link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div>
+            <strong class="social-connect">Присоиденяйтесь</strong>
+            <ul class="list flex">
               <a
-                class="footer-address link"
-                href="https://goo.gl/maps/YjMtobuVedqzEs7B6"
-                target="_blank"
+                href=""
+                class="footer-social-links"
                 rel="noreferrer noopener"
-                >г. Киев, пр-т Леси Украинки, 26</a
+                aria-label="Company instagram"
               >
-            </li>
-            <li>
-              <a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li><a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-          </ul>
-        </address>
+                <svg class="empl-soc-connect-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a
+                href=""
+                class="footer-social-links"
+                rel="noreferrer noopener"
+                aria-label="Company twitter"
+                ><svg class="empl-soc-connect-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a
+                href=""
+                class="footer-social-links"
+                rel="noreferrer noopener"
+                aria-label="Company facebook"
+                ><svg class="empl-soc-connect-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a
+                href=""
+                class="footer-social-links"
+                rel="noreferrer noopener"
+                aria-label="Company linkedin"
+                ><svg class="empl-soc-connect-icon" width="20" height="20">
+                  <use href="/images/icons/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
