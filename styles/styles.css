@@ -306,15 +306,14 @@ address {
     justify-content: center;
     width: 170px;
     height: 92px;
-    margin-right: 30px;
 
     color: #AFB1B8;
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
-.client-logo:last-child {
-    margin-right: 0px;
+.client-list:not(:last-child) {
+    margin-right: 30px;
 }
 .client-logo:hover,
 .client-logo:focus{
@@ -367,7 +366,7 @@ address {
     color: var(--prime-bg-color);
     background-color:rgba(255, 255, 255, 0.1);
 }
-.footer-social-links:not(:last-child){
+.footer-social-list:not(:last-child){
     margin-right: 10px;
 }
 .footer-social-links:hover, .footer-social-links:focus{
