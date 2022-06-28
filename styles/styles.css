@@ -56,6 +56,9 @@ address {
     color: var(--focus-color);
 }
 .contact {
+    display: flex;
+    align-items: center;
+
     font-weight: 500;
     letter-spacing: 0.02em;
     color: inherit;
@@ -106,7 +109,7 @@ address {
    
     fill: currentColor;
     margin-right: 10px;
-    vertical-align: middle;
+   
     
 }
 
@@ -143,6 +146,7 @@ address {
 }
 .hero{
     max-width: 1600px;
+    height: 600px;
     margin-right: auto;
     margin-left: auto;
     padding: 200px 0;
@@ -154,7 +158,7 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color:C4C4C4;
+    background-color:#C4C4C4;
     }
 .hero-title{
     margin-bottom: 30px;
@@ -330,8 +334,12 @@ address {
     padding-bottom: 60px;
     background-color: var(--footer-bg-color);
 }
-.footer-line{
+.footer .container{
+    display: flex;
     align-items: baseline;
+}
+.footer-line-item{
+    margin-right: 70px; ;
 }
 
 .footer .logo {
@@ -342,9 +350,6 @@ address {
     color: var(--prime-bg-color);
 }
 
-.footer-links{
-    margin-right: 70px;
-}
 .footer-links > li:not(:last-child) {
     margin-bottom: 9px;
 }
