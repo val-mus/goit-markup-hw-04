@@ -239,9 +239,31 @@ address {
     padding-top: 0px;
   
 }
+
 .work-list > li:not(:last-child) {
     margin-right: 30px;
 }
+.work-present{
+    position: relative;
+}
+.work-desc{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 370px;
+    height: 70px;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8),rgba(47, 48, 58, 0.8));
+    
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--prime-bg-color);
+
+}
+
 /* Section-team styles*/
 .team{
    background-color: var(--third-bg-color);
