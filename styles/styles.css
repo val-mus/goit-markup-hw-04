@@ -274,6 +274,9 @@ address {
     line-height: 1.19;
     margin-bottom: 16px;
 }
+.emp-soc-list:not(:last-child) {
+    margin-right: 10px;
+}
 .employee-social-link{
     justify-content: center;
 }
